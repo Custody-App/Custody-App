@@ -16,7 +16,7 @@ Custody App is a PyQt5-based application for managing assets, loans, and employe
 - Python 3.7+
 - PyQt5
 - SQLModel
-- SQLAlchemy
+
 
 ### Installation
 1. Clone the repository:
@@ -60,10 +60,3 @@ Custody App is a PyQt5-based application for managing assets, loans, and employe
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-- PyQt5
-- SQLModel
-- SQLAlchemy
