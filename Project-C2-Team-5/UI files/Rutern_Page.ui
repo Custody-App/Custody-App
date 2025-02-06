@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>inventorywindow</class>
+ <widget class="QMainWindow" name="inventorywindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>314</width>
+    <height>246</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_inventory_quantity">
+      <property name="text">
+       <string>Quantity</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_Inventory_returnstate">
+      <property name="text">
+       <string>Return State</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="Inventory_page_ReturnItem">
+      <property name="text">
+       <string>Return Item</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QPushButton" name="Inventory_page_cancelbutt">
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QComboBox" name="Inventory_page_Returnstate_enum">
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" colspan="2">
+     <widget class="QSpinBox" name="Inventory_page_quantity_spinbox">
+      <property name="maximum">
+       <number>999999999</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>Inventory_page_quantity_spinbox</tabstop>
+  <tabstop>Inventory_page_Returnstate_enum</tabstop>
+  <tabstop>Inventory_page_ReturnItem</tabstop>
+  <tabstop>Inventory_page_cancelbutt</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

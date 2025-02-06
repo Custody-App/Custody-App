@@ -1,0 +1,2305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>865</width>
+    <height>489</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_9">
+    <item row="1" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_12">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QTabWidget" name="AssetsAndLoansMainTabs">
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>16</width>
+           <height>16</height>
+          </size>
+         </property>
+         <property name="tabBarAutoHide">
+          <bool>false</bool>
+         </property>
+         <widget class="QWidget" name="AssetAllocationTab">
+          <attribute name="title">
+           <string>Assets</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_26">
+           <item row="0" column="0">
+            <widget class="QTabWidget" name="tabWidget">
+             <property name="tabPosition">
+              <enum>QTabWidget::North</enum>
+             </property>
+             <property name="tabShape">
+              <enum>QTabWidget::Rounded</enum>
+             </property>
+             <property name="currentIndex">
+              <number>0</number>
+             </property>
+             <property name="tabBarAutoHide">
+              <bool>false</bool>
+             </property>
+             <widget class="QWidget" name="tab_3">
+              <attribute name="title">
+               <string>Assets Inventory</string>
+              </attribute>
+              <layout class="QGridLayout" name="gridLayout_32">
+               <item row="0" column="1">
+                <widget class="QStackedWidget" name="Assest_Inventory_stackedWidget">
+                 <property name="focusPolicy">
+                  <enum>Qt::ClickFocus</enum>
+                 </property>
+                 <property name="currentIndex">
+                  <number>0</number>
+                 </property>
+                 <widget class="QWidget" name="page_12">
+                  <layout class="QGridLayout" name="gridLayout_17">
+                   <item row="0" column="1">
+                    <widget class="QPushButton" name="Inventory_AddingTable_Add_butt_">
+                     <property name="maximumSize">
+                      <size>
+                       <width>80</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Add</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLineEdit" name="AssetInventory_search_txt">
+                     <property name="autoFillBackground">
+                      <bool>true</bool>
+                     </property>
+                     <property name="placeholderText">
+                      <string>Inventory Information</string>
+                     </property>
+                     <property name="clearButtonEnabled">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="2">
+                    <widget class="QPushButton" name="Inventory_AddingTable_Edit_butt_">
+                     <property name="maximumSize">
+                      <size>
+                       <width>80</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Edit</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0" colspan="3">
+                    <widget class="QTableWidget" name="InventoryTablePage_Assets">
+                     <property name="selectionBehavior">
+                      <enum>QAbstractItemView::SelectRows</enum>
+                     </property>
+                     <column>
+                      <property name="text">
+                       <string>ID</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Name</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Description</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>SerialNumber</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Quantity</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Money_Value</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Location</string>
+                      </property>
+                     </column>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_13">
+                  <layout class="QGridLayout" name="gridLayout_39">
+                   <item row="2" column="1">
+                    <widget class="QLabel" name="label_21">
+                     <property name="text">
+                      <string>Quantity</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="3">
+                    <widget class="QPushButton" name="Inventory_Add_butt_">
+                     <property name="maximumSize">
+                      <size>
+                       <width>80</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Add</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLineEdit" name="InventoryAddingSerialNumber_Assets_">
+                     <property name="placeholderText">
+                      <string>SerialNumber</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="4">
+                    <widget class="QPushButton" name="Inventory_Return_butt_">
+                     <property name="maximumSize">
+                      <size>
+                       <width>80</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Return</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="2">
+                    <widget class="QLineEdit" name="InventoryAddingMoneyValue_Assets_">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="placeholderText">
+                      <string>MoneyValue</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLineEdit" name="InventoryAdding_ObjectName_Assets_">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="sizeIncrement">
+                      <size>
+                       <width>0</width>
+                       <height>25</height>
+                      </size>
+                     </property>
+                     <property name="placeholderText">
+                      <string>Object's Name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="2">
+                    <widget class="QLineEdit" name="InventoryAddingLocation_Assets_">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="placeholderText">
+                      <string>Location</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLineEdit" name="InventoryAddingDescription_Assets_">
+                     <property name="placeholderText">
+                      <string>Description</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="2">
+                    <widget class="QSpinBox" name="InventoryAddingQuantity_Assets_">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="maximum">
+                      <number>1000000000</number>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_8">
+                  <layout class="QGridLayout" name="gridLayout_52">
+                   <item row="0" column="0">
+                    <widget class="QLineEdit" name="InventoryEdit_ObjectName_Assets_">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="sizeIncrement">
+                      <size>
+                       <width>0</width>
+                       <height>25</height>
+                      </size>
+                     </property>
+                     <property name="placeholderText">
+                      <string>Object's Name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="2">
+                    <widget class="QLineEdit" name="InventoryEditLocation_Assets_">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="placeholderText">
+                      <string>Location</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLineEdit" name="InventoryEditDescription_Assets_">
+                     <property name="placeholderText">
+                      <string>Description</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="2">
+                    <widget class="QLineEdit" name="InventoryEditMoneyValue_Assets_">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="placeholderText">
+                      <string>MoneyValue</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLineEdit" name="InventoryEditSerialNumber_Assets_">
+                     <property name="placeholderText">
+                      <string>SerialNumber</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QLabel" name="label_36">
+                     <property name="text">
+                      <string>Quantity</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="2">
+                    <widget class="QSpinBox" name="InventoryEditQuantity_Assets_">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="maximum">
+                      <number>1000000000</number>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="3">
+                    <widget class="QPushButton" name="Inventory_Edit__Save_butt_">
+                     <property name="maximumSize">
+                      <size>
+                       <width>80</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Save</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="4">
+                    <widget class="QPushButton" name="Inventory_Edit__Return_butt_">
+                     <property name="maximumSize">
+                      <size>
+                       <width>80</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Return</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="tab_4">
+              <attribute name="title">
+               <string>Assets Allocation</string>
+              </attribute>
+              <layout class="QGridLayout" name="gridLayout_40">
+               <item row="0" column="0">
+                <widget class="QStackedWidget" name="AssetAllocations_stackedwidget">
+                 <property name="focusPolicy">
+                  <enum>Qt::ClickFocus</enum>
+                 </property>
+                 <property name="currentIndex">
+                  <number>0</number>
+                 </property>
+                 <widget class="QWidget" name="AssetsRecordsPage_">
+                  <layout class="QGridLayout" name="gridLayout_4">
+                   <item row="0" column="0">
+                    <widget class="QGroupBox" name="groupBox_AssestAllocation_Search">
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="title">
+                      <string/>
+                     </property>
+                     <layout class="QGridLayout" name="gridLayout_33">
+                      <property name="leftMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item row="0" column="0">
+                       <widget class="QLineEdit" name="AssetsRecordsPage_search_txt">
+                        <property name="autoFillBackground">
+                         <bool>true</bool>
+                        </property>
+                        <property name="placeholderText">
+                         <string>Object's Information</string>
+                        </property>
+                        <property name="clearButtonEnabled">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="1">
+                       <widget class="QPushButton" name="AssetsRecordsPage_add_butt">
+                        <property name="text">
+                         <string>Add</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="3">
+                       <widget class="QPushButton" name="AssetsRecordsPage_IsReturn_butt_">
+                        <property name="text">
+                         <string>Return Item</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="2">
+                       <widget class="QPushButton" name="AssetsRecordsPage_edit_butt">
+                        <property name="layoutDirection">
+                         <enum>Qt::LeftToRight</enum>
+                        </property>
+                        <property name="text">
+                         <string>Edit</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QTableWidget" name="AssetsRecordsPage_AssetsDataTable_">
+                     <property name="selectionBehavior">
+                      <enum>QAbstractItemView::SelectRows</enum>
+                     </property>
+                     <column>
+                      <property name="text">
+                       <string>ID</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Name</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Employee Number</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Object Name</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Department</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Quantity</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Unrecived Quantity</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Allocation_Date</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>isReturned</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Return_Date</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Note</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Suggestes_ReturnDate</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Given State</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Return State</string>
+                      </property>
+                     </column>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="AssetsAddingPage_">
+                  <layout class="QGridLayout" name="gridLayout_15">
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_25">
+                     <property name="maximumSize">
+                      <size>
+                       <width>125</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Given State</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QComboBox" name="AssetsAddingPage_GivenState_enum">
+                     <property name="maximumSize">
+                      <size>
+                       <width>300</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="editable">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_26">
+                     <property name="maximumSize">
+                      <size>
+                       <width>125</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Object Name</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QComboBox" name="AssetsAddingPage_ObjectName_enum_">
+                     <property name="maximumSize">
+                      <size>
+                       <width>300</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="editable">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="2">
+                    <widget class="QLabel" name="label_23">
+                     <property name="maximumSize">
+                      <size>
+                       <width>125</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Suggested Return date</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="3" colspan="2">
+                    <widget class="QDateEdit" name="AssetsAddingPage_suggsestedReturnTime_date">
+                     <property name="maximumSize">
+                      <size>
+                       <width>300</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_9">
+                     <property name="text">
+                      <string>Department</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QComboBox" name="AssetsAddingPage_Department_enum">
+                     <property name="maximumSize">
+                      <size>
+                       <width>300</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="editable">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_22">
+                     <property name="maximumSize">
+                      <size>
+                       <width>125</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Quantity</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QSpinBox" name="AssetsAddingPage_quantity_spinbox">
+                     <property name="maximumSize">
+                      <size>
+                       <width>300</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="maximum">
+                      <number>1000000000</number>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_10">
+                     <property name="text">
+                      <string>Notes</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QLineEdit" name="AssetsAddingPage_note_txt"/>
+                   </item>
+                   <item row="5" column="3">
+                    <widget class="QPushButton" name="AssetsAddingPage_add_butt_">
+                     <property name="maximumSize">
+                      <size>
+                       <width>80</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Add</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="5" column="4">
+                    <widget class="QPushButton" name="AssetsAddingPage_return_butt_">
+                     <property name="maximumSize">
+                      <size>
+                       <width>80</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Return</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_5">
+                  <layout class="QGridLayout" name="gridLayout_19">
+                   <item row="0" column="2" alignment="Qt::AlignHCenter">
+                    <widget class="QLabel" name="label_24">
+                     <property name="maximumSize">
+                      <size>
+                       <width>125</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Suggested Return date</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="3" colspan="2">
+                    <widget class="QDateEdit" name="AssetsAddingPage_suggsestedReturnTime_date_2">
+                     <property name="maximumSize">
+                      <size>
+                       <width>300</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_11">
+                     <property name="text">
+                      <string>Notes</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QLineEdit" name="AssetsEditPage_note_txt_">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="3">
+                    <widget class="QPushButton" name="AssetsEditPage_save_butt_">
+                     <property name="maximumSize">
+                      <size>
+                       <width>80</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Save</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="4">
+                    <widget class="QPushButton" name="AssetsEditPage_return_butt_">
+                     <property name="maximumSize">
+                      <size>
+                       <width>80</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Return</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QComboBox" name="AssetsEditPage_GivenState_enum_">
+                     <property name="maximumSize">
+                      <size>
+                       <width>300</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="editable">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_27">
+                     <property name="maximumSize">
+                      <size>
+                       <width>125</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Given State</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="LoansAndPaymentTab">
+          <attribute name="title">
+           <string>Loans</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="0" column="0">
+            <widget class="QTabWidget" name="LoansAndPaymentSecondTabWidget">
+             <property name="currentIndex">
+              <number>0</number>
+             </property>
+             <property name="tabBarAutoHide">
+              <bool>false</bool>
+             </property>
+             <widget class="QWidget" name="LoansRecord_page_tab">
+              <attribute name="title">
+               <string>Loans Record</string>
+              </attribute>
+              <layout class="QGridLayout" name="gridLayout_6">
+               <item row="1" column="0">
+                <widget class="QStackedWidget" name="LoansRecord_stackedwidget">
+                 <property name="focusPolicy">
+                  <enum>Qt::ClickFocus</enum>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::NoFrame</enum>
+                 </property>
+                 <property name="lineWidth">
+                  <number>0</number>
+                 </property>
+                 <property name="currentIndex">
+                  <number>0</number>
+                 </property>
+                 <widget class="QWidget" name="LoansRecordsPage">
+                  <layout class="QGridLayout" name="gridLayout_23">
+                   <item row="0" column="0">
+                    <widget class="QLineEdit" name="LoansRecordsPage_search_txt">
+                     <property name="autoFillBackground">
+                      <bool>true</bool>
+                     </property>
+                     <property name="placeholderText">
+                      <string>Loan's Information</string>
+                     </property>
+                     <property name="clearButtonEnabled">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QGroupBox" name="groupBox_AssestAllocation_Search_2">
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>50</height>
+                      </size>
+                     </property>
+                     <property name="title">
+                      <string/>
+                     </property>
+                     <layout class="QGridLayout" name="gridLayout_35">
+                      <property name="leftMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item row="0" column="2">
+                       <widget class="QPushButton" name="LoansRecordsPage_Pay_butt_">
+                        <property name="text">
+                         <string>AddPayment</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="1">
+                       <widget class="QPushButton" name="LoansRecordsPage_edit_butt">
+                        <property name="layoutDirection">
+                         <enum>Qt::LeftToRight</enum>
+                        </property>
+                        <property name="text">
+                         <string>Edit</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="0">
+                       <widget class="QPushButton" name="LoansRecordsPage_Add_butt_">
+                        <property name="text">
+                         <string>Add</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item row="1" column="0" colspan="2">
+                    <widget class="QTableWidget" name="LoansRecordsPage_LoansDataTable">
+                     <property name="sizePolicy">
+                      <sizepolicy hsizetype="Ignored" vsizetype="Expanding">
+                       <horstretch>0</horstretch>
+                       <verstretch>0</verstretch>
+                      </sizepolicy>
+                     </property>
+                     <property name="selectionBehavior">
+                      <enum>QAbstractItemView::SelectRows</enum>
+                     </property>
+                     <column>
+                      <property name="text">
+                       <string>ID</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Name</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Employee Number</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Amount</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Currency</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>TimeStamp</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>LoanType</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>TypeOfDeposit</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>Paidinful</string>
+                      </property>
+                     </column>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="LoansAddingTab">
+                  <layout class="QGridLayout" name="gridLayout_2">
+                   <item row="0" column="0">
+                    <widget class="QFrame" name="frame_11">
+                     <property name="frameShape">
+                      <enum>QFrame::NoFrame</enum>
+                     </property>
+                     <property name="frameShadow">
+                      <enum>QFrame::Raised</enum>
+                     </property>
+                     <layout class="QGridLayout" name="gridLayout_5">
+                      <property name="leftMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item row="2" column="1" alignment="Qt::AlignHCenter">
+                       <widget class="QLabel" name="label_13">
+                        <property name="text">
+                         <string>Loan type</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="1" alignment="Qt::AlignHCenter">
+                       <widget class="QLabel" name="label_12">
+                        <property name="text">
+                         <string>Currency</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="4" column="2">
+                       <widget class="QLineEdit" name="LoansAddingTab_amount_txt">
+                        <property name="placeholderText">
+                         <string/>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="1">
+                       <widget class="QLabel" name="label">
+                        <property name="text">
+                         <string>Type of deposit</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="2" colspan="2">
+                       <widget class="QComboBox" name="LoansAddingTab_TypeOfDeposit_enum">
+                        <property name="editable">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="2" colspan="2">
+                       <widget class="QComboBox" name="LoansAddingTab_currency_enum">
+                        <property name="editable">
+                         <bool>true</bool>
+                        </property>
+                        <property name="placeholderText" stdset="0">
+                         <string>Grade</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="2" colspan="2">
+                       <widget class="QComboBox" name="LoansAddingTab_loantype_enum">
+                        <property name="editable">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="4" column="1" alignment="Qt::AlignHCenter">
+                       <widget class="QLabel" name="label_6">
+                        <property name="text">
+                         <string>Amount</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item row="1" column="2">
+                    <widget class="QPushButton" name="LoansAddingTab_Return_butt">
+                     <property name="text">
+                      <string>Return</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QPushButton" name="LoansAddingTab_add_butt">
+                     <property name="text">
+                      <string>Add</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_6">
+                  <layout class="QGridLayout" name="gridLayout_25">
+                   <item row="0" column="0">
+                    <widget class="QFrame" name="frame_12">
+                     <property name="frameShape">
+                      <enum>QFrame::StyledPanel</enum>
+                     </property>
+                     <property name="frameShadow">
+                      <enum>QFrame::Raised</enum>
+                     </property>
+                     <layout class="QGridLayout" name="gridLayout_24">
+                      <property name="leftMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item row="1" column="2">
+                       <widget class="QLabel" name="label_16">
+                        <property name="text">
+                         <string>Currency</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="2">
+                       <widget class="QLabel" name="label_17">
+                        <property name="text">
+                         <string>Loan type</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="2">
+                       <widget class="QLabel" name="label_18">
+                        <property name="text">
+                         <string>Type of deposit</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="2">
+                       <widget class="QLabel" name="label_19">
+                        <property name="text">
+                         <string>Amount</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="3" colspan="2">
+                       <widget class="QComboBox" name="LoansEditTab_TypeOfDeposit_enum_">
+                        <property name="editable">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="1" column="3" colspan="2">
+                       <widget class="QComboBox" name="LoansEditTab_currency_enum_">
+                        <property name="editable">
+                         <bool>true</bool>
+                        </property>
+                        <property name="placeholderText" stdset="0">
+                         <string>Grade</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="2" column="3" colspan="2">
+                       <widget class="QComboBox" name="LoansEditTab_loantype_enum_">
+                        <property name="editable">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="3" column="3">
+                       <widget class="QLineEdit" name="LoansEditTab_amount_txt_">
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="placeholderText">
+                         <string/>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QPushButton" name="LoanseditTab_save_butt_">
+                     <property name="maximumSize">
+                      <size>
+                       <width>56</width>
+                       <height>17</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Save</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="2">
+                    <widget class="QPushButton" name="Loans_editTab_Return_butt_">
+                     <property name="maximumSize">
+                      <size>
+                       <width>56</width>
+                       <height>17</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Return</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                 <widget class="QWidget" name="page_7">
+                  <layout class="QGridLayout" name="gridLayout_8">
+                   <item row="0" column="0">
+                    <widget class="QLineEdit" name="PaymentAddingPage_Amount_txt">
+                     <property name="placeholderText">
+                      <string>Amount</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLineEdit" name="PaymentAddingPage_Note_txt">
+                     <property name="placeholderText">
+                      <string>Note</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_2">
+                     <property name="maximumSize">
+                      <size>
+                       <width>111</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Payment Method:</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QComboBox" name="PaymentAddingPage_payMethod_enum">
+                     <property name="editable">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QPushButton" name="PaymentAddingPage_pay_butt">
+                     <property name="text">
+                      <string>Pay</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="2">
+                    <widget class="QPushButton" name="PaymentAddingPage_Return_butt">
+                     <property name="text">
+                      <string>Return</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="Payment_page_tab">
+              <attribute name="title">
+               <string>Payment</string>
+              </attribute>
+              <layout class="QGridLayout" name="gridLayout_7">
+               <item row="0" column="0">
+                <widget class="QLineEdit" name="PaymentRecordsPage_search_txt">
+                 <property name="autoFillBackground">
+                  <bool>true</bool>
+                 </property>
+                 <property name="placeholderText">
+                  <string>Payment Method</string>
+                 </property>
+                 <property name="clearButtonEnabled">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QTableWidget" name="PaymentRecordsPage_LoanPaymantTableData">
+                 <property name="selectionBehavior">
+                  <enum>QAbstractItemView::SelectRows</enum>
+                 </property>
+                 <column>
+                  <property name="text">
+                   <string>ID</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Name</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Employee Number</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Amount</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>TimeStamp</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Payment_method</string>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Note</string>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QFrame" name="Employee_frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_11">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="horizontalSpacing">
+        <number>6</number>
+       </property>
+       <item row="1" column="0">
+        <widget class="QStackedWidget" name="EmployeeStackedWidget">
+         <property name="focusPolicy">
+          <enum>Qt::ClickFocus</enum>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="EmployeeMainPage">
+          <layout class="QGridLayout" name="gridLayout_22">
+           <item row="1" column="0" colspan="2">
+            <widget class="QFrame" name="frame_6">
+             <property name="frameShape">
+              <enum>QFrame::NoFrame</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_16">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item row="0" column="0">
+               <widget class="QGroupBox" name="EmployeeMainPage_groupbox">
+                <property name="focusPolicy">
+                 <enum>Qt::ClickFocus</enum>
+                </property>
+                <property name="title">
+                 <string/>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_21">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item row="0" column="4">
+                  <widget class="QPushButton" name="EmployeeMainPage_Department_butt">
+                   <property name="text">
+                    <string>Depatrments</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="5">
+                  <widget class="QPushButton" name="EmployeeUsersnButton">
+                   <property name="text">
+                    <string>Users</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="0">
+                  <widget class="QLineEdit" name="EmployeeMainPage_search_txt">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="autoFillBackground">
+                    <bool>true</bool>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="placeholderText">
+                    <string>Employee's Information</string>
+                   </property>
+                   <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QPushButton" name="EmployeeMainPage_add_butt">
+                   <property name="text">
+                    <string>Add</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="2">
+                  <widget class="QPushButton" name="EmployeeMainPage_edit_butt">
+                   <property name="text">
+                    <string>Edit</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="10">
+                  <widget class="QPushButton" name="RESET_butt">
+                   <property name="toolTip">
+                    <string>By pressing this button, all recordes will be reset.</string>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true"/>
+                   </property>
+                   <property name="text">
+                    <string>RESET</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="3">
+                  <widget class="QPushButton" name="EmployeeMainPage_remove_butt">
+                   <property name="text">
+                    <string>Remove</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QTableWidget" name="EmployeeMainPage_EmployeeDataTable">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>16777213</height>
+                 </size>
+                </property>
+                <property name="selectionMode">
+                 <enum>QAbstractItemView::ContiguousSelection</enum>
+                </property>
+                <property name="selectionBehavior">
+                 <enum>QAbstractItemView::SelectRows</enum>
+                </property>
+                <property name="gridStyle">
+                 <enum>Qt::CustomDashLine</enum>
+                </property>
+                <attribute name="horizontalHeaderMinimumSectionSize">
+                 <number>75</number>
+                </attribute>
+                <column>
+                 <property name="text">
+                  <string>ID</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Name</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Employee number</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Phone number</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Department</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Address</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Postalcode</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Grade</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>E-mail</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Is Auditor</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>IBAN</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Bank</string>
+                 </property>
+                </column>
+               </widget>
+              </item>
+             </layout>
+             <zorder>EmployeeMainPage_EmployeeDataTable</zorder>
+             <zorder>EmployeeMainPage_groupbox</zorder>
+            </widget>
+           </item>
+           <item row="0" column="0" colspan="2" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QLabel" name="Employee_recodes">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Employees Records&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_9">
+          <layout class="QGridLayout" name="gridLayout_20">
+           <item row="0" column="0" rowspan="2" colspan="3" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+            <widget class="QLabel" name="Employee_recodes_2">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Departments Recored&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QPushButton" name="DepartemntTable_Add_butt">
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Add</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QPushButton" name="DepartemntTable_Return_butt">
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Return</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0" colspan="3">
+            <widget class="QTableWidget" name="DepartemntTable">
+             <property name="selectionBehavior">
+              <enum>QAbstractItemView::SelectRows</enum>
+             </property>
+             <column>
+              <property name="text">
+               <string>ID</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Name</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Manager Name</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_10">
+          <layout class="QGridLayout" name="gridLayout_28">
+           <item row="1" column="0" colspan="3">
+            <widget class="QLineEdit" name="MangerIDDepartment_txt_3">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="placeholderText">
+              <string>MangeNumber</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QPushButton" name="Departemnt_return_butt_">
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Return</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0" colspan="3">
+            <widget class="QLineEdit" name="DepartmentName_txt_">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="sizeIncrement">
+              <size>
+               <width>0</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="placeholderText">
+              <string>Name</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QPushButton" name="Depatrment_add_butt_">
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Add</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="AddEmployeePage">
+          <layout class="QGridLayout" name="gridLayout_10">
+           <item row="0" column="0">
+            <widget class="QFrame" name="frame_7">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_13">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item row="7" column="4">
+               <widget class="QPushButton" name="AddEmployeePage_Return_butt">
+                <property name="text">
+                 <string>Return</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <widget class="QComboBox" name="AddEmployeePage_Department_enum">
+                <property name="editable">
+                 <bool>true</bool>
+                </property>
+                <property name="placeholderText" stdset="0">
+                 <string>Grade</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="3">
+               <widget class="QPushButton" name="AddEmployeePage_Add_butt">
+                <property name="text">
+                 <string>Add</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="QComboBox" name="AddEmployeePage_Grade_enum">
+                <property name="editable">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLabel" name="label_5">
+                <property name="text">
+                 <string>Grade</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLineEdit" name="AddEmployeePage_Postalcode_txt">
+                <property name="placeholderText">
+                 <string>PostalCode</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="2">
+               <widget class="QLineEdit" name="AddEmployeePage_Bank_txt">
+                <property name="placeholderText">
+                 <string>Bank</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <widget class="QLineEdit" name="AddEmployeePage_Phone_txt">
+                <property name="placeholderText">
+                 <string>Phone</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QLabel" name="label_3">
+                <property name="text">
+                 <string>Department</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLineEdit" name="AddEmployeePage_Address_txt">
+                <property name="placeholderText">
+                 <string>Address</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLineEdit" name="AddEmployeePage_Name_txt">
+                <property name="placeholderText">
+                 <string>Name</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLineEdit" name="AddEmployeePage_Employeenumber_txt">
+                <property name="minimumSize">
+                 <size>
+                  <width>5</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>16777213</height>
+                 </size>
+                </property>
+                <property name="inputMethodHints">
+                 <set>Qt::ImhPreferNumbers</set>
+                </property>
+                <property name="placeholderText">
+                 <string>Employee Number</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="2">
+               <widget class="QLineEdit" name="AddEmployeePage_IBAN_txt">
+                <property name="placeholderText">
+                 <string>IBAN</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="2">
+               <widget class="QLineEdit" name="AddEmployeePage_Email_txt">
+                <property name="placeholderText">
+                 <string>E-mail</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_3">
+          <layout class="QGridLayout" name="gridLayout_29">
+           <item row="0" column="0">
+            <widget class="QFrame" name="frame_8">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_18">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item row="2" column="0">
+               <widget class="QLineEdit" name="EditEmployeePage_Postalcode_txt_">
+                <property name="placeholderText">
+                 <string>PostalCode</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="QLineEdit" name="EditEmployeePage_IBAN_txt_">
+                <property name="placeholderText">
+                 <string>IBAN</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLineEdit" name="EditEmployeePage_Employeenumber_txt_">
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="readOnly">
+                 <bool>true</bool>
+                </property>
+                <property name="placeholderText">
+                 <string>Employee Number</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLineEdit" name="Edit_EmployeePage_Address_txt_">
+                <property name="placeholderText">
+                 <string>Address</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="4">
+               <widget class="QPushButton" name="Edit_ReturnEmployee_">
+                <property name="text">
+                 <string>Return</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLabel" name="label_7">
+                <property name="text">
+                 <string>Grade</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="3">
+               <widget class="QPushButton" name="EditEmployeePage_Save_butt_">
+                <property name="text">
+                 <string>Save</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="QComboBox" name="EditEmployeePage_Grade_enum_">
+                <property name="editable">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLineEdit" name="Edit_EmployeePage_Name_txt_">
+                <property name="placeholderText">
+                 <string>Name</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="2">
+               <widget class="QLineEdit" name="EditEmployeePage_Bank_txt_">
+                <property name="placeholderText">
+                 <string>Bank</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLineEdit" name="EditEmployeePage_Phone_txt_">
+                <property name="placeholderText">
+                 <string>Phone</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="2">
+               <widget class="QLineEdit" name="EditEmployeePage_Email_txt">
+                <property name="placeholderText">
+                 <string>E-mail</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QLabel" name="label_8">
+                <property name="text">
+                 <string>Department</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <widget class="QComboBox" name="EditEmployeePage_Department_enum_">
+                <property name="editable">
+                 <bool>true</bool>
+                </property>
+                <property name="currentText">
+                 <string/>
+                </property>
+                <property name="placeholderText" stdset="0">
+                 <string>Grade</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page">
+          <layout class="QGridLayout" name="gridLayout_14">
+           <item row="2" column="0" colspan="12">
+            <widget class="QTableWidget" name="AuditorTabel">
+             <property name="selectionBehavior">
+              <enum>QAbstractItemView::SelectRows</enum>
+             </property>
+             <column>
+              <property name="text">
+               <string>ID</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Name</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Employee Number</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Username</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Password</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>LoginStatus</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>AdminCheck</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+           <item row="0" column="5">
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Auditors Recordes&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="11">
+            <widget class="QPushButton" name="Auditor_Return_butt">
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Return</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="10">
+            <widget class="QPushButton" name="Auditor_Edit_butt">
+             <property name="text">
+              <string>Edit</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="9">
+            <widget class="QPushButton" name="AuditorPage_add_butt">
+             <property name="maximumSize">
+              <size>
+               <width>80</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Add</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_2">
+          <layout class="QGridLayout" name="gridLayout_31">
+           <item row="1" column="0">
+            <widget class="QFrame" name="frame">
+             <layout class="QGridLayout" name="gridLayout">
+              <item row="0" column="0">
+               <widget class="QLineEdit" name="AuditorManginigPage_EmployeeNumber_TXT">
+                <property name="placeholderText">
+                 <string>EmployeeNumber</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLineEdit" name="AuditorManginigPage_USERNAME_TXT">
+                <property name="placeholderText">
+                 <string>User Name</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLineEdit" name="AuditorManginigPage_EncPassword_TXT">
+                <property name="echoMode">
+                 <enum>QLineEdit::Normal</enum>
+                </property>
+                <property name="placeholderText">
+                 <string>EncPassword</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QCheckBox" name="Admin_check_Checkbox">
+                <property name="toolTip">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="text">
+                 <string>Admin Check</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QPushButton" name="Add_Auditor_manging">
+                <property name="text">
+                 <string>Add</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="2">
+               <widget class="QPushButton" name="Return_Auditor_Mange">
+                <property name="text">
+                 <string>Return</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_4">
+          <layout class="QGridLayout" name="gridLayout_36">
+           <item row="0" column="0">
+            <widget class="QFrame" name="frame_2">
+             <layout class="QGridLayout" name="gridLayout_27">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item row="2" column="0">
+               <widget class="QCheckBox" name="Admin_checkEdit_Checkbox_">
+                <property name="toolTip">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="text">
+                 <string>Admin Check</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QPushButton" name="Edit_Auditor_manging_">
+                <property name="text">
+                 <string>Save</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="QPushButton" name="Return_EditAuditor_Mange_">
+                <property name="text">
+                 <string>Return</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLineEdit" name="AuditorManginigPageEdit_EncPassword_TXT_">
+                <property name="echoMode">
+                 <enum>QLineEdit::Password</enum>
+                </property>
+                <property name="placeholderText">
+                 <string>EncPassword</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLineEdit" name="AuditorManginigPageEdit_USERNAME_TXT_">
+                <property name="placeholderText">
+                 <string>User Name</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="Logout">
+      <property name="text">
+       <string>Log out</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>10</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>EmployeeMainPage_search_txt</tabstop>
+  <tabstop>EmployeeMainPage_add_butt</tabstop>
+  <tabstop>EmployeeMainPage_edit_butt</tabstop>
+  <tabstop>EmployeeMainPage_remove_butt</tabstop>
+  <tabstop>EmployeeMainPage_Department_butt</tabstop>
+  <tabstop>EmployeeUsersnButton</tabstop>
+  <tabstop>RESET_butt</tabstop>
+  <tabstop>EmployeeMainPage_EmployeeDataTable</tabstop>
+  <tabstop>DepartemntTable_Add_butt</tabstop>
+  <tabstop>DepartemntTable_Return_butt</tabstop>
+  <tabstop>DepartemntTable</tabstop>
+  <tabstop>DepartmentName_txt_</tabstop>
+  <tabstop>MangerIDDepartment_txt_3</tabstop>
+  <tabstop>Depatrment_add_butt_</tabstop>
+  <tabstop>Departemnt_return_butt_</tabstop>
+  <tabstop>AddEmployeePage_Name_txt</tabstop>
+  <tabstop>AddEmployeePage_Employeenumber_txt</tabstop>
+  <tabstop>AddEmployeePage_Postalcode_txt</tabstop>
+  <tabstop>AddEmployeePage_Address_txt</tabstop>
+  <tabstop>AddEmployeePage_Phone_txt</tabstop>
+  <tabstop>AddEmployeePage_Department_enum</tabstop>
+  <tabstop>AddEmployeePage_Grade_enum</tabstop>
+  <tabstop>AddEmployeePage_IBAN_txt</tabstop>
+  <tabstop>AddEmployeePage_Bank_txt</tabstop>
+  <tabstop>AddEmployeePage_Email_txt</tabstop>
+  <tabstop>AddEmployeePage_Add_butt</tabstop>
+  <tabstop>AddEmployeePage_Return_butt</tabstop>
+  <tabstop>Edit_EmployeePage_Name_txt_</tabstop>
+  <tabstop>EditEmployeePage_Employeenumber_txt_</tabstop>
+  <tabstop>EditEmployeePage_Postalcode_txt_</tabstop>
+  <tabstop>Edit_EmployeePage_Address_txt_</tabstop>
+  <tabstop>EditEmployeePage_Phone_txt_</tabstop>
+  <tabstop>EditEmployeePage_Department_enum_</tabstop>
+  <tabstop>EditEmployeePage_Grade_enum_</tabstop>
+  <tabstop>EditEmployeePage_IBAN_txt_</tabstop>
+  <tabstop>EditEmployeePage_Bank_txt_</tabstop>
+  <tabstop>EditEmployeePage_Email_txt</tabstop>
+  <tabstop>EditEmployeePage_Save_butt_</tabstop>
+  <tabstop>Edit_ReturnEmployee_</tabstop>
+  <tabstop>AuditorPage_add_butt</tabstop>
+  <tabstop>Auditor_Edit_butt</tabstop>
+  <tabstop>Auditor_Return_butt</tabstop>
+  <tabstop>AuditorTabel</tabstop>
+  <tabstop>AuditorManginigPage_EmployeeNumber_TXT</tabstop>
+  <tabstop>AuditorManginigPage_USERNAME_TXT</tabstop>
+  <tabstop>AuditorManginigPage_EncPassword_TXT</tabstop>
+  <tabstop>Admin_check_Checkbox</tabstop>
+  <tabstop>Add_Auditor_manging</tabstop>
+  <tabstop>Return_Auditor_Mange</tabstop>
+  <tabstop>AuditorManginigPageEdit_USERNAME_TXT_</tabstop>
+  <tabstop>AuditorManginigPageEdit_EncPassword_TXT_</tabstop>
+  <tabstop>Admin_checkEdit_Checkbox_</tabstop>
+  <tabstop>Edit_Auditor_manging_</tabstop>
+  <tabstop>Return_EditAuditor_Mange_</tabstop>
+  <tabstop>AssetsAndLoansMainTabs</tabstop>
+  <tabstop>AssetInventory_search_txt</tabstop>
+  <tabstop>Inventory_AddingTable_Add_butt_</tabstop>
+  <tabstop>Inventory_AddingTable_Edit_butt_</tabstop>
+  <tabstop>InventoryTablePage_Assets</tabstop>
+  <tabstop>InventoryAdding_ObjectName_Assets_</tabstop>
+  <tabstop>InventoryAddingDescription_Assets_</tabstop>
+  <tabstop>InventoryAddingSerialNumber_Assets_</tabstop>
+  <tabstop>InventoryAddingLocation_Assets_</tabstop>
+  <tabstop>InventoryAddingMoneyValue_Assets_</tabstop>
+  <tabstop>InventoryAddingQuantity_Assets_</tabstop>
+  <tabstop>Inventory_Add_butt_</tabstop>
+  <tabstop>Inventory_Return_butt_</tabstop>
+  <tabstop>InventoryEdit_ObjectName_Assets_</tabstop>
+  <tabstop>InventoryEditDescription_Assets_</tabstop>
+  <tabstop>InventoryEditSerialNumber_Assets_</tabstop>
+  <tabstop>InventoryEditLocation_Assets_</tabstop>
+  <tabstop>InventoryEditMoneyValue_Assets_</tabstop>
+  <tabstop>InventoryEditQuantity_Assets_</tabstop>
+  <tabstop>Inventory_Edit__Save_butt_</tabstop>
+  <tabstop>Inventory_Edit__Return_butt_</tabstop>
+  <tabstop>AssetsRecordsPage_search_txt</tabstop>
+  <tabstop>AssetsRecordsPage_add_butt</tabstop>
+  <tabstop>AssetsRecordsPage_edit_butt</tabstop>
+  <tabstop>AssetsRecordsPage_IsReturn_butt_</tabstop>
+  <tabstop>AssetsRecordsPage_AssetsDataTable_</tabstop>
+  <tabstop>AssetsAddingPage_GivenState_enum</tabstop>
+  <tabstop>AssetsAddingPage_ObjectName_enum_</tabstop>
+  <tabstop>AssetsAddingPage_Department_enum</tabstop>
+  <tabstop>AssetsAddingPage_quantity_spinbox</tabstop>
+  <tabstop>AssetsAddingPage_add_butt_</tabstop>
+  <tabstop>AssetsAddingPage_return_butt_</tabstop>
+  <tabstop>AssetsEditPage_note_txt_</tabstop>
+  <tabstop>AssetsEditPage_save_butt_</tabstop>
+  <tabstop>AssetsEditPage_return_butt_</tabstop>
+  <tabstop>LoansRecordsPage_search_txt</tabstop>
+  <tabstop>LoansRecordsPage_Add_butt_</tabstop>
+  <tabstop>LoansRecordsPage_edit_butt</tabstop>
+  <tabstop>LoansRecordsPage_Pay_butt_</tabstop>
+  <tabstop>LoansRecordsPage_LoansDataTable</tabstop>
+  <tabstop>LoansAddingTab_TypeOfDeposit_enum</tabstop>
+  <tabstop>LoansAddingTab_currency_enum</tabstop>
+  <tabstop>LoansAddingTab_loantype_enum</tabstop>
+  <tabstop>LoansAddingTab_amount_txt</tabstop>
+  <tabstop>LoansAddingTab_add_butt</tabstop>
+  <tabstop>LoansAddingTab_Return_butt</tabstop>
+  <tabstop>LoansEditTab_TypeOfDeposit_enum_</tabstop>
+  <tabstop>LoansEditTab_currency_enum_</tabstop>
+  <tabstop>LoansEditTab_loantype_enum_</tabstop>
+  <tabstop>LoansEditTab_amount_txt_</tabstop>
+  <tabstop>LoanseditTab_save_butt_</tabstop>
+  <tabstop>Loans_editTab_Return_butt_</tabstop>
+  <tabstop>PaymentAddingPage_Amount_txt</tabstop>
+  <tabstop>PaymentAddingPage_Note_txt</tabstop>
+  <tabstop>PaymentAddingPage_payMethod_enum</tabstop>
+  <tabstop>PaymentAddingPage_pay_butt</tabstop>
+  <tabstop>PaymentAddingPage_Return_butt</tabstop>
+  <tabstop>Logout</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
