@@ -50,6 +50,7 @@ Custody App is a PyQt5-based application for managing assets, loans, and employe
     ```sh
     python main.py
     ```
+    
 
 ## Usage
 1. Launch the application.
