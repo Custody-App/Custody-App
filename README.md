@@ -10,13 +10,22 @@ Custody App is a PyQt5-based application for managing assets, loans, and employe
 - **Multi-language Support**: Supports English and Arabic.
 - **Dark Mode**: Toggle dark mode for better visibility.
 
+## Screenshots
+
+### Login Page
+![Login Page](https://github.com/Custody-App/Custody-App/blob/main/Project-C2-Team-5/UI%20Photos/Login_page.png)
+  
+### Asset Management
+![Asset Management](https://github.com/Custody-App/Custody-App/blob/main/Project-C2-Team-5/UI%20Photos/Assets_record.png)
+### Loan Management
+![Loan Management](https://github.com/Custody-App/Custody-App/blob/main/Project-C2-Team-5/UI%20Photos/Loan_record.png)
+
 ## Getting Started
 
 ### Prerequisites
 - Python 3.7+
 - PyQt5
 - SQLModel
-
 
 ### Installation
 1. Clone the repository:
@@ -59,4 +68,3 @@ Custody App is a PyQt5-based application for managing assets, loans, and employe
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
